@@ -1,4 +1,4 @@
-package com.interview.study.multithreading;
+package com.interview.demo.multithreading;
 
 /**
  * 死锁

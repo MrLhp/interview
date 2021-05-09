@@ -1,4 +1,4 @@
-package com.interview.study.basic.tree;
+package com.interview.demo.basic.tree;
 
 import java.util.List;
 

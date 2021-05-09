@@ -1,4 +1,4 @@
-package com.interview.study.basic.generics;
+package com.interview.demo.basic.generics;
 
 import lombok.Data;
 

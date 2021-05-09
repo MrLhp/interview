@@ -1,4 +1,4 @@
-package com.interview.study.basic.tree;
+package com.interview.demo.basic.tree;
 
 
 import com.google.gson.Gson;
