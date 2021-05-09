@@ -1,8 +1,6 @@
 package com.interview.study.basic.generics;
 
-import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;
-import java.lang.reflect.TypeVariable;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -26,7 +24,6 @@ public class GenericListStudy {
 
     public static <T> void printUser(List<T> model) throws IllegalAccessException, InstantiationException {
         Type type = model.getClass().getGenericSuperclass();
-
     }
 
 }
