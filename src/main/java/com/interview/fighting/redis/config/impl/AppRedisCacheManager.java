@@ -1,6 +1,6 @@
-package com.interview.demo.config.impl;
+package com.interview.fighting.redis.config.impl;
 
-import com.interview.demo.cache.IGlobalCache;
+import com.interview.fighting.redis.cache.IGlobalCache;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import org.springframework.data.redis.core.RedisTemplate;

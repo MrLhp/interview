@@ -1,4 +1,4 @@
-package com.interview.demo.cache;
+package com.interview.fighting.redis.cache;
 
 import org.springframework.data.redis.core.RedisTemplate;
 

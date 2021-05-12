@@ -1,4 +1,4 @@
-package com.interview.demo;
+package com.interview.fighting;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

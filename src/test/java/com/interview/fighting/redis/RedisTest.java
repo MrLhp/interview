@@ -1,12 +1,11 @@
-package com.interview.demo.redis;
+package com.interview.fighting.redis;
 
 
 import com.google.gson.Gson;
-import com.interview.demo.cache.IGlobalCache;
+import com.interview.fighting.redis.cache.IGlobalCache;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.autoconfigure.data.redis.DataRedisTest;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
@@ -27,6 +26,5 @@ public class RedisTest {
         List<Object> list = globalCache.lGet("list", 0, -1);
         System.out.println(new Gson().toJson(list));
         System.out.println(globalCache.get("key2"));
-
     }
 }

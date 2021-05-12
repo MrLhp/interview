@@ -1,4 +1,4 @@
-package com.interview.demo.multithreading;
+package com.interview.fighting.multithreading;
 
 /**
  * 死锁

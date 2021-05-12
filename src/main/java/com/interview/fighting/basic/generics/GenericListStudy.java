@@ -1,4 +1,4 @@
-package com.interview.demo.basic.generics;
+package com.interview.fighting.basic.generics;
 
 import java.lang.reflect.Type;
 import java.util.ArrayList;

@@ -1,7 +1,7 @@
-package com.interview.demo.config;
+package com.interview.fighting.redis.config;
 
-import com.interview.demo.cache.IGlobalCache;
-import com.interview.demo.config.impl.AppRedisCacheManager;
+import com.interview.fighting.redis.cache.IGlobalCache;
+import com.interview.fighting.redis.config.impl.AppRedisCacheManager;
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.cache.annotation.EnableCaching;
@@ -25,6 +25,7 @@ import redis.clients.jedis.JedisPoolConfig;
 @ConfigurationProperties(prefix = "spring.redis")
 @Data
 public class RedisConfig {
+    //todo:使用Lettuce替代jedis
     private String host;
     private Integer database;
     private Integer port;
